@@ -1,5 +1,6 @@
 import wrap
 
+import movement
 
 wrap.world.create_world(800,700)
 wrap.world.set_back_color(100,200,200)
