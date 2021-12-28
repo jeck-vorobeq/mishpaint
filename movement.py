@@ -3,7 +3,7 @@ import wrap
 pla = wrap.sprite.add("pacman", 100, 600, "player2")
 
 
-@wrap.on_key_down()
+@wrap.on_key_always(wrap.K_w,wrap.K_s,wrap.K_a,wrap.K_d)
 def management(keys):
     global pla
     if wrap.K_w in keys:
